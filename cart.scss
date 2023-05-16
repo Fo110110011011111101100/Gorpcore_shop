@@ -1,0 +1,59 @@
+/* Контейнер продуктов */
+@font-face {
+  font-family: 'Another Danger';
+  src: url('Another Danger.ttf');
+}
+
+#product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 1200px;
+  // &:last-child{
+  //     scroll-margin-top: 50px;
+  // }
+}
+
+/* Карточка продукта */
+.product {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  width: 280px;
+
+  h3 {
+    font-family: 'Another Danger', sans-serif;
+  }
+
+  img {
+    height: 170px;
+    width: auto;
+  }
+
+  /* Кнопка добавления в корзину */
+  button {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background-color: #555;
+    }
+  }
+
+  /* Цена продукта */
+  .price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+}

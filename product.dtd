@@ -1,0 +1,7 @@
+<!ELEMENT products (product+)>
+<!ELEMENT product (img,name?,price?)>
+<!ELEMENT img EMPTY>
+<!ATTLIST img src CDATA #REQUIRED>
+<!ATTLIST img alt NMTOKEN #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT price (#PCDATA)>

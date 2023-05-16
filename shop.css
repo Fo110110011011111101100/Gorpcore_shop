@@ -1,0 +1,165 @@
+/* Стили для модального окна */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal img {
+  width: 170px;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 60%;
+}
+
+@media (max-width:580px){
+  .modal-content{
+    width: 70%;
+  }
+}
+
+@media (max-width:430px){
+  .modal-content{
+    width: 80%;
+  }
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button-cart button {
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  padding: 10px 20px;
+}
+
+.button-cart {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.lol:active::after {
+  color: green;
+}
+
+.sort {
+  background-color: #333;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  /* transition: all 0.3s ease; */
+}
+
+select {
+  font-family: Arial, sans-serif; /* выбор шрифта */
+  font-size: 16px; /* размер шрифта */
+  padding: 3px 10px 3px 12px; /* отступы внутри элемента */
+  border: 2px solid #ccc; /* граница элемента */
+  border-radius: 5px; /* закругление углов границы */
+  background-color: #fff; /* цвет фона */
+  color: #333; /* цвет текста */
+  appearance: none; /* скрытие стандартной стрелки выбора */
+}
+
+select:hover, select:focus {
+  border-color: #666; /* изменение цвета границы при наведении или фокусировке */
+}
+
+.div-sort {
+  display: flex;
+  width: 320px;
+  justify-content: space-evenly;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+button[type="submit"] {
+  background-color: #333;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+  background-color: #444;
+}
+
+/* эффект увеличения */
+/* .product:hover{
+  transform: scale(1.05);
+  animation-direction: alternate;
+  transition: transform 0.2s ease-in-out;
+} */
+
+@keyframes anim{
+  from{
+    transform: scale(1.0);
+  }
+  to{
+    transform: scale(1.05);
+  }
+}
+
+.product:hover{
+  animation-name: anim;
+  animation-duration: 0.2s;
+  animation-timing-function: linear;
+  animation-delay: 0.1s;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+}

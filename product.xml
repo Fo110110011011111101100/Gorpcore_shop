@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+  <!-- 1 -->
+  <jackets>
+    <img src="img/ark1.jpg" alt="ARCTERYX" />
+    <name>ARCTERYX</name>
+    <price>100</price>
+    <size>size-product-1</size>
+  </jackets>
+  <!-- 2 -->
+  <jackets>
+    <img src="img/carh2.jpg" alt="CARHART" />
+    <name>CARHARTT</name>
+    <price>50</price>
+    <size>size-product-2</size>
+  </jackets>
+  <!-- 3 -->
+  <jackets>
+    <img src="img/adi6.jpg" alt="ADIDAS" />
+    <name>ADIDAS</name>
+    <price>35</price>
+    <size>size-product-3</size>
+  </jackets>
+  <!-- 4 -->
+  <sneakers>
+    <img src="img/adi1.jpg" alt="ADIDAS" />
+    <name>ADIDAS</name>
+    <price>60</price>
+    <size>size-product-4</size>
+  </sneakers>
+  <!-- 5 -->
+  <jackets>
+    <img src="img/ark3.jpg" alt="ARCTERYX" />
+    <name>ARCTERYX</name>
+    <price>110</price>
+    <size>size-product-5</size>
+  </jackets>
+  <!-- 6 -->
+  <pants>
+    <img src="img/carh4.jpg" alt="CARHARTT" />
+    <name>CARHARTT</name>
+    <price>40</price>
+    <size>size-product-6</size>
+  </pants>
+  <!-- 7 -->
+  <sneakers>
+    <img src="img/adi2.jpg" alt="ADIDAS" />
+    <name>ADIDAS</name>
+    <price>75</price>
+    <size>size-product-7</size>
+  </sneakers>
+  <!-- 8 -->
+  <jackets>
+    <img src="img/ston3.jpg" alt="STONE ISLAND" />
+    <name>STONE ISLAND</name>
+    <price>200</price>
+    <size>size-product-8</size>
+  </jackets>
+  <!-- 9 -->
+  <sneakers>
+    <img src="img/adi3.jpg" alt="ADIDAS" />
+    <name>ADIDAS</name>
+    <price>90</price>
+    <size>size-product-9</size>
+  </sneakers>
+  <!-- 10 -->
+  <jackets>
+    <img src="img/ree1.jpg" alt="REEBOK" />
+    <name>REEBOK</name>
+    <price>30</price>
+    <size>size-product-10</size>
+  </jackets>
+  <!-- 11 -->
+  <jackets>
+    <img src="img/adi5.jpg" alt="ADIDAS" />
+    <name>ADIDAS</name>
+    <price>50</price>
+    <size>size-product-11</size>
+  </jackets>
+  <!-- 12 -->
+  <pants>
+    <img src="img/carh6.jpg" alt="CARHART" />
+    <name>CARHARTT</name>
+    <price>35</price>
+    <size>size-product-12</size>
+  </pants>
+  <!-- 13 -->
+  <sneakers>
+    <img src="img/gore1.jpg" alt="SALEWA" />
+    <name>SALEWA</name>
+    <price>105</price>
+    <size>size-product-13</size>
+  </sneakers>
+  <!-- 14 -->
+  <sneakers>
+    <img src="img/gore4.jpg" alt="ADIDAS" />
+    <name>ADIDAS</name>
+    <price>110</price>
+    <size>size-product-14</size>
+  </sneakers>
+  <!-- 15 -->
+  <sneakers>
+    <img src="img/gore3.jpg" alt="NIKE" />
+    <name>NIKE</name>
+    <price>200</price>
+    <size>size-product-15</size>
+  </sneakers>
+  <!-- 16 -->
+  <pants>
+    <img src="img/ark5.jpg" alt="ARCTERYX" />
+    <name>ARCTERYX</name>
+    <price>110</price>
+    <size>size-product-16</size>
+  </pants>
+  <!-- 17 -->
+  <pants>
+    <img src="img/ark6.jpg" alt="ARCTERYX" />
+    <name>ARCTERYX</name>
+    <price>125</price>
+    <size>size-product-17</size>
+  </pants>
+  <!-- 18 -->
+  <pants>
+    <img src="img/ston6.jpg" alt="STONE ISLAND" />
+    <name>STONE ISLAND</name>
+    <price>135</price>
+    <size>size-product-18</size>
+  </pants>
+  <!-- 19 -->
+  <pants>
+    <img src="img/ston7.jpg" alt="STONE ISLAND" />
+    <name>STONE ISLAND</name>
+    <price>170</price>
+    <size>size-product-19</size>
+  </pants>
+  <!-- 20 -->
+  <jackets>
+    <img src="img/ston4.jpg" alt="STONE ISLAND" />
+    <name>STONE ISLAND</name>
+    <price>150</price>
+    <size>size-product-20</size>
+  </jackets>
+  <!-- 21 -->
+  <jackets>
+    <img src="img/ston1.jpg" alt="STONE ISLAND" />
+    <name>STONE ISLAND</name>
+    <price>165</price>
+    <size>size-product-21</size>
+  </jackets>
+</products>
